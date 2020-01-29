@@ -12,6 +12,7 @@ Character.destroy_all
 
 goku = Character.create!(
         name: "Goku",
+        image: "https://combatmuseum.com/wp-content/uploads/2019/04/goku2.jpg",
         bio: "Goku is a Saiyan originally sent to Earth as an infant. However, an accident alters his memory, allowing him to grow up to become Earth's greatest defender and the informal leader of the Dragon Team. He constantly strives and trains to be the greatest warrior possible, which has kept the Earth and the universe safe from destruction many times",
         family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goten', 'Master Roshi'],
         race: "Saiyan",
@@ -22,6 +23,7 @@ goku = Character.create!(
       )
 gohan = Character.create!(
         name: "Gohan",
+        image: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/ultimate-gohan-dragon-ball-z.jpg",
         bio: "Son Gohan (孫そん悟ご飯はん Son Gohan) is the elder son of the series' primary protagonist Goku and his wife Chi-Chi, the older brother of Goten, the husband of Videl and father to Pan. He is named after Goku's adoptive grandfather, Gohan. Unlike his father, Gohan lacks a passion for fighting (although, he does possess a strong power within him) and prefers to do so only when his loved ones are threatened. Nevertheless, Gohan fights alongside the Dragon Team in the defense of Earth for much of his life.",
         family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goten', 'Goku', 'Videl', 'Pan', 'Mr. Satan'],
         race: "Half-Saiyan",
@@ -32,6 +34,7 @@ gohan = Character.create!(
       )
 vegeta = Character.create!(
         name: "Vegeta",
+        image: "https://media.comicbook.com/2018/03/vegeta3-1092181-1280x0.jpeg",
         bio: "Regal, egotistical, and full of pride, Vegeta was once a ruthless, cold-blooded warrior and outright killer, but later abandons his role in the Frieza Force, instead opting to remain and live on Earth, fighting alongside the universe's most powerful warrior, specifically with the mission to defeat and surpass Goku in power. His character evolves from villain, to anti-hero, to a hero through the course of the series.",
         family: ['King Vegeta', 'Tarble', 'Bulma', 'Trunks', 'Bulla'],
         race: "Saiyan",
@@ -42,6 +45,7 @@ vegeta = Character.create!(
       )
 piccolo = Character.create!(
         name: "Piccolo",
+        image: "https://fr.screenja.com/img/bk/piccolo-dbz.jpg",
         bio: "A wise and cunning warrior who was originally a ruthless enemy of Goku, Piccolo later becomes a permanent member of the Dragon Team, largely due to forming a mutual respect to Goku and even more from forming a close bond with Goku's first-born son Gohan.",
         family: ['Kami', 'Nail'],
         race: "Namekian",
@@ -52,6 +56,7 @@ piccolo = Character.create!(
       )
 roshi = Character.create!(
         name: "Master Roshi",
+        image: "https://media.comicbook.com/2017/04/dragon-ball-roshi-993087-1280x0.png",
         bio: "Master Roshi, also known as the Turtle Hermit and God of Martial Arts, is a master of martial arts, who trained Gohan, Ox-King, Goku, Krillin, and Yamcha. He has a sister named Fortuneteller Baba. He is also a hermit and a pervert.",
         family: ['Krillin', 'Goku', 'Yamcha', 'Ox-King', 'Grandpa Gohan'],
         race: "Human",
@@ -62,6 +67,7 @@ roshi = Character.create!(
       )
 krillin = Character.create!(
         name: "Krillin",
+        image: "https://www.sdpnoticias.com/files/image_804_455/files/fp/uploads/2019/12/30/krillin-con-nariz1.r_d.392-79-11806.png",
         bio: "Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends. One of the most powerful and talented martial artists on Earth, Krillin is courageous, faithful, and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies. His short stature and baldness (with the exception of when he grows out his hair in the Majin Buu Saga onwards) aid him in his ability to provide comic relief during tense moments. During the latter half of Dragon Ball Z, he largely retires from fighting, opting to settle down with his family instead, becoming the husband of Android 18 and the father of Marron. However, he returns to his lifestyle as a warrior later on in Dragon Ball Super.",
         family: ['Android 18', 'Android 17', 'Marron', 'Master Roshi'],
         race: "Human",
@@ -72,6 +78,7 @@ krillin = Character.create!(
       )
 tien = Character.create!(
         name: "Tien Shinhan",
+        image: "https://66.media.tumblr.com/96eb9ad3ce18c3fa99800fcd13b8f0e1/tumblr_nyesba90RA1uw9bm8o2_1280.png",
         bio: "Tien Shinhan is a disciplined, reclusive and heavily devoted martial artist, and one of the strongest Earthlings within the Dragon Ball universe. He also possesses a few non-human traits due to being descended from the Three-Eyed People. He was originally a student of the Crane School who desired revenge against Goku for defeating his mentor, Mercenary Tao, but realized he was on the wrong side with the help of Master Roshi. He battles alongside the other Z Fighters against major threats to the Earth surface, often courageously engaging enemies far more powerful than himself. However, he spends most of his time training with his lifelong best friend, Chiaotzu.",
         family: ['Chiaotzu'],
         race: "Human",
@@ -82,6 +89,7 @@ tien = Character.create!(
       )
 frieza = Character.create!(
         name: "Frieza",
+        image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/frieza-dbz-feature-image.jpg",
         bio: "Frieza is the emperor of Universe 7, who controlled his own imperial army and is feared for his ruthlessness and power. He is the descendant of Chilled, the second son of King Cold, the younger brother of Cooler, and the father of Kuriza. Frieza is the catalyst antagonist of the entire franchise, as it is his actions that led to Goku arriving on Earth. He has made several comebacks since his fight with Goku on Namek, including multiple invasions of Earth. Recently, he has been chosen to represent Universe 7 as the tenth member of Team Universe 7 for the Tournament of Power as a replacement for Good Buu. This makes him the most recurring villain of the Dragon Ball series. After the events of the Tournament of Power, he is revived and recovers his title as Emperor of Universe 7.",
         family: ['King Cold', 'Cooler', 'Chilled'],
         race: "Frieza Race",
@@ -92,6 +100,7 @@ frieza = Character.create!(
       )
 a17 = Character.create!(
         name: "Android 17",
+        image: "http://files.1337.games/wp-content/uploads/2018/09/Android-17-940x529.jpg",
         bio: "Android 17, Lapis when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
         family: ['Android 18', 'Android 16', 'Dr Gero', 'Krillin'],
         race: "Android",
@@ -102,6 +111,7 @@ a17 = Character.create!(
       )
 a18 = Character.create!(
         name: "Android 18",
+        image: "https://carboncostume.com/wordpress/wp-content/uploads/2016/04/android18.jpg",
         bio: "Android 18, originally named Lazuli  when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Android 16, in spite of Gero's orders not to do so, leads Android 17 to take it upon himself to murder Gero. Eventually, Android 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron.",
         family: ['Android 17', 'Android 16', 'Dr Gero', 'Krillin', 'Marron'],
         race: "Android",
@@ -112,6 +122,7 @@ a18 = Character.create!(
       )
 beerus = Character.create!(
         name: "Beerus",
+        image: "http://img.improve-yourmemory.com/pic/7c609919d570b23113c41ad09e685056-0.jpg",
         bio: "Beerus is the God of Destruction of Universe 7. He is accompanied by his martial arts teacher and attendant, Whis. Beerus' twin brother is Champa, the God of Destruction of Universe 6. Beerus is the main antagonist of the Dragon Ball Z: Battle of Gods film and the God of Destruction Beerus Saga but becomes a supporting character in later sagas.",
         family: ['Champa'],
         race: "Beerus Race",
@@ -122,6 +133,7 @@ beerus = Character.create!(
       )
 whis = Character.create!(
         name: "Whis",
+        image: "https://vignette.wikia.nocookie.net/teamfourstar/images/a/ac/5378977-2386078157-latest.png/revision/latest?cb=20170226205135",
         bio: "Whis is the angelic attendant of Universe 7's God of Destruction, Beerus,[5] as well as his martial arts teacher. Along with his siblings, he is a child of the Grand Minister. Like all attendants, he is bound to the service of his deity and usually does not leave Beerus unaccompanied.",
         family: ['Grand Minister', 'Vados', 'Awamo', 'Sour', 'Camparri', 'Cognac', 'Cukatail', 'Korn', 'Mojito', 'Kusu', 'Marcarita', 'Martinu', 'Merus'],
         race: "Angel",
@@ -132,6 +144,7 @@ whis = Character.create!(
       )
 future_trunks = Character.create!(
         name: "Trunks",
+        image: "https://i.ytimg.com/vi/aS6-4HuFu5k/maxresdefault.jpg",
         bio: "Future Trunks is the Saiyan and Earthling hybrid son of Future Vegeta and Future Bulma from an alternate future. By the time Present Trunks was born, the timeline had been altered by Future Trunks' and Cell's trips to the past. Therefore, the two Trunks had completely different lives (as opposed to those who lived before the Time Machines arrived, they lived exactly the same lives as their counterparts until the point at which the two timelines diverge: three years before the androids arrived).",
         family: ['Vegeta', 'Bulma', "King Vegeta", 'Tarble', 'Bulla'],
         race: "Half-Saiyan",
@@ -142,6 +155,7 @@ future_trunks = Character.create!(
       )
 trunks = Character.create!(
         name: "Trunks",
+        image: "https://i.ytimg.com/vi/8anmVC3h1ao/maxresdefault.jpg",
         bio: "Trunks is the Earthling and Saiyan hybrid son of Bulma and Vegeta, and the older brother of Bulla.",
         family: ['Vegeta', 'Bulma', "King Vegeta", 'Tarble', 'Bulla'],
         race: "Half-Saiyan",
@@ -152,6 +166,7 @@ trunks = Character.create!(
       )
 goten = Character.create!(
         name: "Goten",
+        image: "https://vignette.wikia.nocookie.net/dragonball/images/2/29/GotenNV.png/revision/latest?cb=20191108050056",
         bio: "Son Goten is the youngest son of Goku and his wife Chi-Chi, making him a Saiyan and Earthling hybrid. Goten is Gohan's younger brother and Trunks' best friend.",
         family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goku'],
         race: "Half-Saiyan",
@@ -162,6 +177,7 @@ goten = Character.create!(
       )
 yamcha = Character.create!(
         name: "Yamcha",
+        image: "https://static1.srcdn.com/wordpress/wp-content/uploads/2017/04/Yamcha-Dragon-Ball-Z.jpg",
         bio: "A former desert bandit, Yamcha was once an enemy of Goku, but quickly reformed and became a friend and ally. Brave, boastful and dependable, Yamcha is a very talented martial artist and one of the most powerful humans on Earth, possessing skills and traits that allow him to fight alongside his fellow Z Fighters when major threats loom. Although he retired by the latter half of Dragon Ball Z, due to being largely outclassed by both his allies (namely the Saiyans) and their enemies, he is always present whenever a new threat approaches, and will occasionally lend a helping hand, thus proving himself to be a powerful ally in his own right.",
         family: ['Puar'],
         race: "Human",
@@ -172,6 +188,7 @@ yamcha = Character.create!(
       )
 bulma = Character.create!(
         name: "Bulma",
+        image: "https://media.comicbook.com/2019/01/bulma-dragon-ball-super-broly-1154857-1280x0.jpeg",
         bio: "Bulma (ブルマ Buruma) is a brilliant scientist and the second daughter of Capsule Corporation's founder Dr. Brief and his wife Panchy,[10] the younger sister of Tights, and is Goku's first friend. She used to be the girlfriend of Yamcha, but moved on and, eventually, became the wife of Vegeta, as well as the mother of Trunks and Bulla. While she is unable to physically fight most of the villains in the series, her gadgetry plays a key role in winning several battles as well as the search for the Dragon Balls.",
         family: ['King Vegeta', 'Tarble', 'Trunks', 'Vegeta','Dr.Brief', 'Panchy', 'Tights', 'Gure', 'Bulla' ],
         race: "Human",
@@ -182,6 +199,7 @@ bulma = Character.create!(
       )
 pan = Character.create!(
         name: "Pan",
+        image: "https://res.cloudinary.com/jerrick/image/upload/w_720/ds1nkjq70py5dpp009rs.jpg",
         bio: "Pan (パン Pan) is the granddaughter of Earth's hero, Goku and the world champion, Mr. Satan. Her heritage is primarily Earthling, being the offspring of the Saiyan-Earthling hybrid Gohan and the Earthling Videl, thus making her a quarter-Saiyan.",
         family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goten', 'Goku', 'Videl', 'Mr. Satan', 'Ox-King', 'Grandpa Gohan', 'Miguel'],
         race: "Quarter Saiyan Three Quarter Human",
@@ -192,6 +210,7 @@ pan = Character.create!(
       )
 cell = Character.create!(
         name: "Cell",
+        image: "https://vignette.wikia.nocookie.net/dragonball/images/5/5b/Super_Perfect_Cell_Kamehameha.png/revision/latest?cb=20181112174656",
         bio: "Cell (セル Seru) is the ultimate creation of Dr. Gero, who came from a future timeline, designed using the genetics of the greatest fighters to have been present on Earth that the remote tracking device could track down; the result was a 'perfect warrior', possessing numerous favorable genetic traits and special abilities from Goku, Vegeta, Piccolo, Frieza and King Cold.",
         family: ['Dr.Gero Supercomputer','Piccolo', 'Cell Juniors'],
         race: "Bio-Android",
@@ -202,6 +221,7 @@ cell = Character.create!(
       )
 kid_buu = Character.create!(
         name: "Kid Buu",
+        image: "https://i.ytimg.com/vi/GlXU-BjyQzo/maxresdefault.jpg",
         bio: "Kid Buu is the original, pure form of Majin Buu. Unlike his other forms, this form of Buu's thought process is seen to be irrational and spontaneous, even destroying his own body to destroy the Earth. Although he appears smaller than any other form, he is more dangerous than any other forms of Buu due to his full relentless evil and unpredictability. He is also completely free of restraint and has no trace of sanity and, because of this, is extremely volatile. He retains his childish personality, becoming amused and laughing hysterically at his own destruction of entire worlds.",
         family: ['Bibidi','Babidi'],
         race: "Majin",
@@ -212,6 +232,7 @@ kid_buu = Character.create!(
       )
 super_buu = Character.create!(
         name: "Super Buu",
+        image: "https://i.ytimg.com/vi/2N57yeELGtA/maxresdefault.jpg",
         bio: "Super Buu is the result of Evil Buu eating Good Buu in a chocolate form. This new Majin Buu has tremendously more power and increased mental capacity than the previous incarnation. In this form, Buu has very little patience and extremely dangerous fits of anger, even possessing the power to rip through dimensional walls if angered enough.",
         family: ['Bibidi','Babidi'],
         race: "Majin",
@@ -222,16 +243,18 @@ super_buu = Character.create!(
       )
 majin_buu = Character.create!(
         name: "Majin Buu",
+        image: "https://media.comicbook.com/2018/04/majin-buu-1097901-1280x0.jpeg",
         bio: "Good Buu also known mainly as Majin Buu, is the result of the Innocent Buu using fission to split into good and evil halves. He would go on to become a member of the Z Fighters and live with Mr. Satan. After the battle against the pure Majin Buu, Buu is referred to as Buu instead of Majin Buu and to the world he becomes Mr. Buu.",
         family: ['Bibidi','Babidi', 'Mr. Satan', 'Bee'],
         race: "Majin",
         universe: "7",
         height: 172,
         weight: 114,
-        forms: [],
+        forms: [''],
       )
 ginyu = Character.create!(
         name: "Captain Ginyu",
+        image: "https://i.ytimg.com/vi/93tEchktoyA/maxresdefault.jpg",
         bio: "Ginyu is the strict but loyal captain of the elite mercenary platoon, the eponymous Ginyu Force. Ginyu is a honorable, yet merciless fighter who constantly strikes poses. He possesses the ability to swap bodies.",
         family: [''],
         race: "Ginyu Race",
@@ -242,6 +265,7 @@ ginyu = Character.create!(
       )
 jiren = Character.create!(
         name: "Jiren",
+        image: "https://cdn.collider.com/wp-content/uploads/2018/02/dragon-ball-super-jiren.png",
         bio: "Jiren, also known as Jiren The Gray, is a member of the Pride Troopers. He served as the main fighting antagonist in the Universe Survival Saga and as a major contestant in the Tournament of Power. An extraordinary powerful being, Jiren is considered to be one of the strongest mortals in all of the multiverse, outclassing even Destroyer Gods.",
         family: [''],
         race: "Jiren Race",
@@ -250,3 +274,4 @@ jiren = Character.create!(
         weight: 170,
         forms: ['Full Power'],
       )
+puts 'success!'

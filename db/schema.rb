@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_01_28_213225) do
     t.integer "weight"
     t.text "family", default: [], array: true
     t.string "universe"
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
