@@ -8,6 +8,7 @@ class CreateCharactersTable < ActiveRecord::Migration[5.2]
       t.integer :height
       t.integer :weight
       t.text :family, array: true, default: []
+      t.string :universe
       t.timestamps()
     end
   end
