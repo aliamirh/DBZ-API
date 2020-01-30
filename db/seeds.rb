@@ -19,13 +19,13 @@ goku = Character.create!(
         universe: "7",
         height: 175,
         weight: 62,
-        forms: ['Great Ape','Kaioken', 'Super Saiyan', 'Super Saiyan 2', 'Super Saiyan 3', 'Super Saiyan 4', 'Super Saiyan God', "Super Saiyan God Super Saiyan", 'Ultra Instinct Omen', "Mastered Ultra Instinct", 'Fusion(Gogeta)', 'Fustion(Vegito)'],
+        forms: ['Great Ape','Kaioken', 'Super Saiyan', 'Super Saiyan 2', 'Super Saiyan 3', 'Super Saiyan 4', 'Super Saiyan God', "Super Saiyan Blue", 'Ultra Instinct Omen', "Mastered Ultra Instinct", 'Fusion(Gogeta)', 'Fustion(Vegito)'],
       )
 gohan = Character.create!(
         name: "Gohan",
         image: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/ultimate-gohan-dragon-ball-z.jpg",
         bio: "Son Gohan (孫そん悟ご飯はん Son Gohan) is the elder son of the series' primary protagonist Goku and his wife Chi-Chi, the older brother of Goten, the husband of Videl and father to Pan. He is named after Goku's adoptive grandfather, Gohan. Unlike his father, Gohan lacks a passion for fighting (although, he does possess a strong power within him) and prefers to do so only when his loved ones are threatened. Nevertheless, Gohan fights alongside the Dragon Team in the defense of Earth for much of his life.",
-        family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goten', 'Goku', 'Videl', 'Pan', 'Mr. Satan'],
+        family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Goten', 'Goku', 'Videl', 'Pan', 'Mr. Satan'],
         race: "Half-Saiyan",
         universe: "7",
         height: 175,
@@ -41,7 +41,7 @@ vegeta = Character.create!(
         universe: "7",
         height: 164,
         weight: 56,
-        forms: ['Great Ape', 'Super Saiyan', 'Super Saiyan 2', 'Super Saiyan 4', 'Super Saiyan God', 'Super Saiyan God Super Saiyan', 'Super Saiyan Blue Evolution', 'Majin', 'Baby Vegeta' ],
+        forms: ['Great Ape', 'Super Saiyan', 'Super Saiyan 2', 'Super Saiyan 4', 'Super Saiyan God', 'Super Saiyan Blue', 'Super Saiyan Blue Evolution', 'Majin', 'Baby Vegeta' ],
       )
 piccolo = Character.create!(
         name: "Piccolo",
